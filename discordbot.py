@@ -28,7 +28,7 @@ async def on_message(message):
         return
 
 
-    elif message.content == "/tip bgpt 50 @🌈RainChan💛":
+    elif message.content == "/tip bgpt 100 @🌈RainChan💛":
         # Embedを使ったメッセージ送信 と ランダムで要素を選択
         embed = discord.Embed(title="JPYN SLOT:slot_machine:", description=f"{message.author.mention}Reel rotation！",
                               color=0xff1493)
