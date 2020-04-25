@@ -39,7 +39,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    elif message.content == "fortune":
+    elif message.content == "Fortune":
         # Embedを使ったメッセージ送信 と ランダムで要素を選択
         embed = discord.Embed(title="☆OMIKUJI☆Fortune☆", description=f"{message.author.mention}Today!YourFortune!☆",
                               color=0x2ECC69)
