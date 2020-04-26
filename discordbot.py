@@ -43,15 +43,27 @@ async def loop():
 
     if now == '03:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117>')   
+        await channel.send('<:hai_kao:699072592987947117>') 
+        
+    if now == '05:50':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:hai_kao:699072592987947117> <:hello:699779689127870514>') 
         
     if now == '07:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:cafe:699769671234355230>Good morning 🌎everyone.<:hai_kao:699072592987947117> \n Have a nice day today! [omikuji] or [fortune] ← for today is fortune🔮Command')
+        
+    if now == '10:00':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:ge:699792780725059664>') 
      
     if now == '14:14':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:hai_kao:699072592987947117> <:gn:699792795363311676>') 
+        
+    if now == '16:50':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:hai_kao:699072592987947117>') 
 
     if now == '20:00':
         channel = client.get_channel(CHANNEL_ID)
