@@ -29,22 +29,10 @@ async def loop():
     now = datetime.now().strftime('%H:%M')
     
     
-    if now == '00:30':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')  
-
     if now == '00:31':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('$tip online 0.001 btt')
 
-    if now == '00:32':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('!rain 0.01 1mt  (　ﾟ∀ﾟ)o彡ﾟみみたん！みみたす！Go!Go!')
-
-    if now == '00:33':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')  
-        
     if now == '00:34':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:hai_kao:699072592987947117><:gm:699792760651120671>')     
@@ -53,177 +41,25 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳') 
         
-    if now == '01:29':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')     
-
-    if now == '01:30':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-    
-    if now == '01:31':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('!rain 0.01 1mt')
-    
     if now == '01:32':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117> 👋')  
+        await channel.send('<:hai_kao:699072592987947117>')  
 
-    if now == '03:13':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
- 
-    if now == '03:28':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')     
-         
     if now == '03:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117>✨')   
-        
-    if now == '03:30':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-    
-    if now == '03:32':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')  
-
-    if now == '03:33':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')    
-    
-    if now == '03:36':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('!rain 0.01 1mt') 
-            
-    if now == '03:37':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-    
-    if now == '03:38':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-    
-    if now == '03:39':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-      
-    if now == '03:40':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-          
-    if now == '03:41':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117> <:hai_kao:699072592987947117>')  
+        await channel.send('<:hai_kao:699072592987947117>')   
         
     if now == '07:00':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:cafe:699769671234355230>Good morning 🌎everyone.<:hai_kao:699072592987947117> \n Have a nice day today! [omikuji] or [fortune] ← for today is fortune🔮Command')
      
-    if now == '10:29':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117>') 
-    
-    if now == '10:30':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-     
-    if now == '10:31':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-    
-    if now == '10:32':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')  
-
-    if now == '10:33':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-    
-    if now == '10:34':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117>') 
-        
-    if now == '12:30':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-
-    if now == '12:31':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-
-    if now == '12:33':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-
-    if now == '12:34':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-    
-    if now == '12:35':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-    
-    if now == '12:36':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-      
-    if now == '12:37':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')    
-   
-    if now == '12:38':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')  
-        
-    if now == '12:39':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('!rain 0.01 1mt')    
-        
-    if now == '12:40':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117> <:hai_kao:699072592987947117>')       
-        
-    if now == '13:55':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117>')      
-        
-    if now == '14:09':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('!rain 0.01 1mt')  
-
-    if now == '14:10':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-   
-    if now == '14:11':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')      
-    
-    if now == '14:12':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-        
-    if now == '14:13':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-        
     if now == '14:14':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:hai_kao:699072592987947117> <:gn:699792795363311676>') 
 
     if now == '20:00':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hai_kao:699072592987947117> <:gm:699792760651120671>')        
-        
-    if now == '20:01':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt') 
-          
-    if now == '21:02':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
+        await channel.send('<:hai_kao:699072592987947117> <:gm:699792760651120671>')
         
 #ループ処理実行
 loop.start()
