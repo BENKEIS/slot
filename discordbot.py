@@ -29,10 +29,6 @@ async def loop():
     now = datetime.now().strftime('%H:%M')
     
     
-    if now == '00:31':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('$tip online 0.001 btt')
-
     if now == '00:34':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:hai_kao:699072592987947117><:gm:699792760651120671>')     
