@@ -4,6 +4,7 @@ import os
 import traceback
 import discord
 from datetime import datetime 
+import random  # おみくじで使用
 
 token = os.environ['DISCORD_BOT_TOKEN']
 CHANNEL_ID =702778037003092001  #チャンネルID
@@ -211,7 +212,6 @@ async def loop():
     if now == '14:14':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:hai_kao:699072592987947117> <:gn:699792795363311676>') 
- UserOnly  <:BENKEICOIN04:698471407650209832><:good01:699581068285706301><:rain:699585875687899247> ')  
 
     if now == '20:00':
         channel = client.get_channel(CHANNEL_ID)
