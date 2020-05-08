@@ -95,9 +95,9 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"三卍( ﾟ∀ﾟ)･∵. ｸﾞﾊｯ!!")  # f文字列（フォーマット済み文字列リテラル）
     
-    if message.content == "｡ﾟ✶ฺ.ヽ(´∀｀)ﾉ.✶ฺﾟ｡":
+    if message.content == "三卍( ﾟ∀ﾟ)･∵":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"｡ﾟ✶ฺ.( *´艸｀).✶ฺﾟ｡")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"･∵( ﾟ∀ﾟ）卍三")  # f文字列（フォーマット済み文字列リテラル）
     
     if message.content == "┏○)) ｱﾘﾆ━━━━━━━━ﾝ!":
         # チャンネルへメッセージを送信
@@ -127,9 +127,9 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"(((o(*ﾟ▽ﾟ*)o)))ワロタ")  # f文字列（フォーマット済み文字列リテラル）
         
-    if message.content == "ヾ(*´∀｀*)ﾉ":
+    if message.content == "ｿｹﾞｷ(､´･ω･)▄︻┻┳═                 :boom: )｀Д)･:∴":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"(❁´ω`❁) ✧٩(ˊωˋ*)و✧")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"Sniper(､´･ω･)▄︻┻┳═ 　　　　 :boom: :cut_of_meat:)｀Д)･:∴{message.author.mention} \n\n\n/tip 29coin 2929.2929 {message.author.mention} ")  # f文字列（フォーマット済み文字列リテラル）
     
     elif message.content == "r/link":
         # リアクションアイコンを付けたい
